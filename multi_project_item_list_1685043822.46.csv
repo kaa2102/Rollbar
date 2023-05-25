@@ -1,0 +1,3 @@
+id,counter,title,environment,framework,status,level,assigned_to,last_occurrence_timestamp,total_occurrences,unique_occurrences,hour_counts,url
+1405375679,3,TypeError: unsupported operand type(s) for +: 'int' and 'str',production,python,active,error,,1685043719,1,0,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1",https://rollbar.com/keithashe/Rolbar_Setup/items/3/
+1405374538,2,ZeroDivisionError: integer division or modulo by zero,production,python,active,error,,1685043561,2,0,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2",https://rollbar.com/keithashe/Rolbar_Setup/items/2/
