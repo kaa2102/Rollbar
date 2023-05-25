@@ -1,0 +1,29 @@
+root@exergy:/var/www/html/rollbar# python list_rql_jobs.py
+{
+  "err": 0,
+  "result": {
+    "total_pages": 1,
+    "jobs": [
+      {
+        "status": "success",
+        "job_hash": "af0bf7ca29ee1a643f2cb5d6dda10287e35f99da",
+        "date_modified": 1685046135,
+        "query_string": "SELECT * FROM item_occurrence WHERE item.counter IN (1,2,3)",
+        "date_created": 1685046134,
+        "project_id": 641364,
+        "id": 104898127,
+        "project_group_id": 33628
+      },
+      {
+        "status": "success",
+        "job_hash": "0d16de4adae753816f0466701587994c79d420de",
+        "date_modified": 1685046069,
+        "query_string": "SELECT timestamp, body.message.body FROM item_occurrence",
+        "date_created": 1685046069,
+        "project_id": 641364,
+        "id": 104898115,
+        "project_group_id": 33628
+      }
+    ]
+  }
+}
